@@ -1130,41 +1130,6 @@ body {
   }
 }
 
-@media (max-width: 576px) {
-  .header__block-text-title {
-    font-size: 20px
-  }
-
-  .prez__title {
-    font-size: 23px
-  }
-
-  .prez__text-block-ds {
-    font-size: 13px
-  }
-
-
-
-  .prez__block-box:hover {
-    -webkit-animation: none;
-    animation: none
-  }
-
-  .prez__block-box-img-value {
-    width: 30%
-  }
-
-  .comment__title {
-    font-size: 22px
-  }
-}
-
-
-
-.prez__block-box {
-
-}
-
 .prez__block-garage {
   position: relative;
   width: 150px;
@@ -1197,4 +1162,19 @@ body {
   transform: translate(18px, -152px);
   width: 103px;
   z-index: 1;
+}
+
+
+@media (max-width: 576px) {
+  .prez__block-garage {
+    width: 134px;
+  }
+
+  .prez__block-gate {
+    transform: translate(30px, -100px);
+  }
+
+  .prez__block-car {
+    transform: translate(13px, -152px);
+  }
 }
